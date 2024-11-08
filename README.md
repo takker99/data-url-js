@@ -3,7 +3,9 @@
 [![JSR](https://jsr.io/badges/@takker/data-url)](https://jsr.io/@takker/data-url)
 [![test](https://github.com/takker99/data-url-js/workflows/ci/badge.svg)](https://github.com/takker99/data-url-js/actions?query=workflow%3Aci)
 
-Convert [`Blob`](https://developer.mozilla.org/docs/Web/API/Blob) to [Data URL](https://developer.mozilla.org/docs/Web/URI/Schemes/data) in Deno/Web browsers
+Convert [`Blob`](https://developer.mozilla.org/docs/Web/API/Blob) to
+[Data URL](https://developer.mozilla.org/docs/Web/URI/Schemes/data) in Deno/Web
+browsers
 
 ## Usage
 
