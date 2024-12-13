@@ -18,7 +18,7 @@ jobs:
           deno-version: ${{ env.DENO_VERSION }}
       - name: Update dependencies
         run: |
-          deno outdated --update > ../output.txt
+          deno outdated --update &> ../output.txt
         env:
           NO_COLOR: 1
       - name: Read ../output.txt
@@ -37,5 +37,5 @@ jobs:
             ${{ steps.log.outputs.content }}
             ```
           branch: update-deno-dependencies
-          author: GitHub <noreply@github.com>
           delete-branch: true
+          sign-commits: true
